@@ -1,0 +1,47 @@
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    z-index: 0;
+}
+
+.sky,
+.mountain,
+.clouds,
+.hero {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.sky {
+    transform: translateZ(-10px) scale(2);
+}
+
+.mountain {
+    transform: translateZ(-5px) scale(1.5);
+}
+
+.clouds {
+    transform: translateY(3vh) translateZ(-2.5px) scale(1.25);
+}
+
+.hero {
+    margin-left: 15vw;
+    top: 40vh;
+    line-height: 10vh;
+    transform: translateZ(-8px) scale(1.8);
+}
+
+.title {
+    font-size: 7rem;
+}
+
+.subtitle {
+    font-size: 3rem;
+}

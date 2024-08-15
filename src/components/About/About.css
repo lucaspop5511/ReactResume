@@ -1,0 +1,42 @@
+.about-section {
+    background-color: #1C313A;
+    color: #dce1dd;
+    position: relative;
+    padding: 50px;
+    margin-bottom: 50px;
+    z-index: 1;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+p {
+    margin-top: 20px;
+}
+
+h3 {
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    z-index: 1;
+}
+
+li {
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+.extension {
+    position: absolute;
+    height: 180px;
+    width: 100%;
+    background-color: #1C313A;
+    padding: 0;
+    margin: -40px 0 0 -50px;
+    z-index: -2;
+}

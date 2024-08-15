@@ -1,0 +1,94 @@
+.projects-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #1f2837;
+    padding: 50px;
+    padding-bottom: 100px;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+.projects-grid-wrapper {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    padding: 100px 0px;
+}
+
+.projects-grid-wrapper h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    color: rgb(63, 132, 68);
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-top: -90px;
+    z-index: 1;
+}
+
+.project-card {
+    background-color: #2439438a;
+    color: rgb(114, 192, 119);
+    padding: 0px 30px 20px 30px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #00cc8f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.forest1,
+.forest2,
+.forest3 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.forest1 {
+    transform: translateZ(-10px) scale(2);
+}
+
+.forest2 {
+    transform: translateZ(-5px) scale(1.5);
+}
+
+.forest3 {
+    transform: translateY(3vh) translateZ(-2.5px) scale(1.25);
+}
+
+@media screen and (max-width: 1049px) {
+    .projects-grid {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 725px) {
+    .projects-section {
+        height: 200%;
+    }
+}
+
+@media screen and (max-height: 665px) {
+    .projects-section {
+        padding-bottom: 400px;
+    }
+}
