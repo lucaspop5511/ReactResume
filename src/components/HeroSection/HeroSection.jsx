@@ -12,8 +12,8 @@ function HeroSection() {
             <img src={mountain} class="mountain"></img>
             <img src={clouds} class="clouds"></img>
             <div className="hero">
-                <h1 className="title">Pop Lucas</h1>
-                <h4 class="subtitle">FSEGA Student</h4>
+                <h1 className="title"><b>Pop</b> Lucas</h1>
+                <h4 class="subtitle">Student and Web Dev</h4>
             </div>
         </header>
     );

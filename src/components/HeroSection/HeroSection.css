@@ -41,15 +41,21 @@ header {
 .title {
     font-family: 'Silkscreen';
     font-size: 9rem;
-    color: #1C313A;
-    text-shadow: 6px 6px #80b6cd;
+    color: #f1bb4d;
+    text-shadow: 4px -4px #0d1317;
+}
+
+.title b {
+    color: rgb(235, 192, 107);
 }
 
 .subtitle {
     font-family: 'Pixelify';
-    font-size: 3rem;
-    color: rgb(204, 153, 131);
+    font-size: 3.5rem;
+    color: rgb(205, 233, 246);
     margin-left: 15px;
+    text-shadow: 1px 1px 0px #000000, -1px 1px 3px #0b474f, 4px -4px 3px #0b474f, -2px -2px 0px #000000;
+
 }
 
 @font-face {
