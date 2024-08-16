@@ -32,16 +32,37 @@ header {
 }
 
 .hero {
-    margin-left: 15vw;
-    top: 40vh;
+    margin-left: 90px;
+    top: 25vh;
     line-height: 10vh;
     transform: translateZ(-8px) scale(1.8);
 }
 
 .title {
-    font-size: 7rem;
+    font-family: 'Silkscreen';
+    font-size: 9rem;
+    color: #1C313A;
+    text-shadow: 6px 6px #80b6cd;
 }
 
 .subtitle {
+    font-family: 'Pixelify';
     font-size: 3rem;
+    color: rgb(204, 153, 131);
+    margin-left: 15px;
+}
+
+@font-face {
+    font-family: 'Jersey';
+    src: url('/src/assets/Fonts/Jersey_10/Jersey10-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Pixelify';
+    src: url('/src/assets/Fonts/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Silkscreen';
+    src: url('/src/assets/Fonts/Silkscreen/Silkscreen-Regular.ttf') format('truetype');
 }

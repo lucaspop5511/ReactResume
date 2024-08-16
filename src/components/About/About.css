@@ -1,42 +1,64 @@
 .about-section {
-    background-color: #1C313A;
+    background-image: linear-gradient(#1C313A 40%, #1e363e);
     color: #dce1dd;
     position: relative;
     padding: 50px;
+    padding-top: 15px;
     margin-bottom: 50px;
     z-index: 1;
 }
 
-h2 {
-    font-size: 3rem;
+.about-me h2 {
+    font-family: 'Silkscreen';
+    font-size: 5rem;
+    margin-top: 0;
 }
 
-p {
+.about-me p {
+    font-family: 'Pixelify';
+    font-size: 2rem;
     margin-top: 20px;
 }
 
-h3 {
-    margin-top: 30px;
-    font-size: 2rem;
+.skills h3 {
+    font-family: 'Silkscreen';
+    font-size: 5rem;
+    margin-top: 50px;
+    margin-bottom: 0;
 }
 
-ul {
+.skills ul {
     list-style-type: none;
-    padding: 0;
     z-index: 1;
 }
 
-li {
+.skills li {
     font-size: 1.2rem;
-    margin: 5px 0;
+    margin: 10px 0;
 }
 
 .extension {
     position: absolute;
     height: 180px;
     width: 100%;
-    background-color: #1C313A;
+    background-color: #1c313a;
+    background-image: linear-gradient(#1e363e 50%, #26434a);
     padding: 0;
     margin: -40px 0 0 -50px;
     z-index: -2;
+}
+
+@font-face {
+    font-family: 'Jersey';
+    src: url('/src/assets/Fonts/Jersey_10/Jersey10-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Pixelify';
+    src: url('/src/assets/Fonts/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Silkscreen';
+    src: url('/src/assets/Fonts/Silkscreen/Silkscreen-Regular.ttf') format('truetype');
 }
