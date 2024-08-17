@@ -14,6 +14,7 @@ header {
 .clouds,
 .hero {
     position: absolute;
+    object-position: left top;
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -33,15 +34,16 @@ header {
 
 .hero {
     margin-left: 90px;
-    top: 25vh;
-    line-height: 10vh;
+    top: 20vh;
+    line-height: 5vh;
     transform: translateZ(-8px) scale(1.8);
 }
 
 .title {
     font-family: 'Silkscreen';
-    font-size: 9rem;
+    font-size: calc(5rem + 2vw + 3vh);
     color: #f1bb4d;
+    line-height: 100px;
     text-shadow: 4px -4px #0d1317;
 }
 
@@ -51,11 +53,23 @@ header {
 
 .subtitle {
     font-family: 'Pixelify';
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     color: rgb(205, 233, 246);
     margin-left: 15px;
+    margin-top: -45px;
     text-shadow: 1px 1px 0px #000000, -1px 1px 3px #0b474f, 4px -4px 3px #0b474f, -2px -2px 0px #000000;
 
+}
+
+@media screen and (max-width: 741px) {
+    .title {
+        transform: translateY(-50px);
+        margin-bottom: 20px;
+    }
+
+    .subtitle {
+        font-size: 2rem;
+    }
 }
 
 @font-face {
