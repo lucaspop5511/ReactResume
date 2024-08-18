@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import "./Skills.css";
 
+import technical from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/technical.png';
+import soft from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/soft.png';
+import languages from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/languages.png';
+
 function Skills() {
     const [activeSection, setActiveSection] = useState("technical");
 
@@ -14,18 +18,21 @@ function Skills() {
                         className={`skills-nav-item ${activeSection === "technical" ? "active" : ""}`}
                         onClick={() => setActiveSection("technical")}
                     >
+                        <img src={technical} alt="Technical Icon" className="icon" />
                         Technical
                     </button>
                     <button
                         className={`skills-nav-item ${activeSection === "soft" ? "active" : ""}`}
                         onClick={() => setActiveSection("soft")}
                     >
+                        <img src={soft} alt="Technical Icon" className="icon" />
                         Soft
                     </button>
                     <button
                         className={`skills-nav-item ${activeSection === "communication" ? "active" : ""}`}
                         onClick={() => setActiveSection("languages")}
                     >
+                        <img src={languages} alt="Technical Icon" className="icon" />
                         Languages
                     </button>
                 </div>
