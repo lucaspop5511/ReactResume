@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import Skills from "./Skills";
 
 import profilePic from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/aboutMePicture.png';
 
@@ -21,21 +22,8 @@ function About() {
             </div>
 
             <div class="skills">
-                <h3>Skills</h3>
-                <ul>
-                    <li>HTML, CSS, JavaScript</li>
-                    <li>React.js</li>
-                    <li>Node.js</li>
-                    <li>Git & GitHub</li>
-                    <li>Git & GitHub</li>
-                    <li>Git & GitHub</li>
-                    <li>Git & GitHub</li>
-                    <li>Git & GitHub</li>
-                    <li>Git & GitHub</li>
-                    <li>Git & GitHub</li>
-                    <li>Git & GitHub</li>
-                    <li>Git & GitHub</li>
-                </ul>
+                <Skills />
+
                 <div className="extension pixel-corner"></div>
             </div>
 

@@ -1,0 +1,45 @@
+.skills {
+    margin-top: 20px;
+}
+
+.skills-container {
+    background-color: #333;
+}
+
+.skills-nav {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-family: 'Silkscreen';
+    margin-top: 50px;
+}
+
+.skills-nav-item {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: inherit;
+    font-family: inherit;
+    cursor: pointer;
+    outline: none;
+}
+
+.skills-nav-item:hover {
+    background-color: #e0e0e0;
+}
+
+.skills-nav-item.active {
+    background-color: #ccc;
+}
+
+.skills-content {
+    display: none;
+    font-family: 'Pixelify';
+}
+
+.skills-content.active {
+    display: block;
+}

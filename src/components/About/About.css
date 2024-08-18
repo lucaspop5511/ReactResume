@@ -32,11 +32,6 @@
 }
 
 .about-me .visually-appealing {
-    /* background: linear-gradient(70deg, #ffa318, #fbc362, #ebda90, #e8e09e);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: transparent; */
     animation: gradientText 2s ease-in-out infinite;
 }
 
