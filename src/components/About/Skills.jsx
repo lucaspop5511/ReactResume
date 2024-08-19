@@ -5,6 +5,30 @@ import technical from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resu
 import soft from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/soft.png';
 import languages from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/languages.png';
 
+import htmlIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/html.png';
+import cssIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/css.png';
+import jsIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/js.png';
+import reactIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/react.png';
+import p5Icon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/p5.png';
+import gitIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/git.png';
+import cIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/c.png';
+import cppIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/cpp.png';
+import csharpIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/csharp.png';
+
+import problemIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/problem.png';
+import attentionIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/attention.png';
+import patienceIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/patience.png';
+import teamworkIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/teamwork.png';
+import communicationIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/communication.png';
+import adaptabilityIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/adaptability.png';
+import timeIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/time.png';
+import learning1Icon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/learn.png';
+import creativityIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/creativity.png';
+
+import romanianIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/romanian.png';
+import englishIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/english.png';
+import germanIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/german.png';
+
 function Skills() {
     const [activeSection, setActiveSection] = useState("technical");
 
@@ -37,41 +61,106 @@ function Skills() {
                     </button>
                 </div>
 
-                {/* Skill Sections */}
+                {/* Technical Skills Grid */}
                 <div className={`skills-content ${activeSection === "technical" ? "active" : ""}`}>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Javascript</li>
-                        <li>React.js</li>
-                        <li>p5.js</li>
-                        <li>C</li>
-                        <li>C++</li>
-                        <li>C#</li>
-                        <li>Git</li>
-                    </ul>
+                    <div className="skills-grid" id="tech-skills">
+                        <div className="skill-item">
+                            <img src={htmlIcon} alt="HTML Icon" />
+                            <p>HTML</p>
+                        </div>
+                        <div className="skill-item">
+                            <img src={cssIcon} alt="CSS Icon" />
+                            <p>CSS</p>
+                        </div>
+                        <div className="skill-item">
+                            <img src={jsIcon} alt="JavaScript Icon" />
+                            <p>JavaScript</p>
+                        </div>
+                        <div className="skill-item">
+                            <img src={reactIcon} alt="React.js Icon" />
+                            <p>React.js</p>
+                        </div>
+                        <div className="skill-item">
+                            <img src={p5Icon} alt="p5.js Icon" />
+                            <p>p5.js</p>
+                        </div>
+                        <div className="skill-item">
+                            <img src={gitIcon} alt="Git Icon" />
+                            <p>Git (Github)</p>
+                        </div>
+                        <div className="skill-item">
+                            <img src={cIcon} alt="C Icon" />
+                            <p>C</p>
+                        </div>
+                        <div className="skill-item">
+                            <img src={cppIcon} alt="C++ Icon" />
+                            <p>C++</p>
+                        </div>
+                        <div className="skill-item">
+                            <img src={csharpIcon} alt="C# Icon" />
+                            <p>C#</p>
+                        </div>
+                    </div>
                 </div>
 
+                {/* Soft Skills Grid */}
                 <div className={`skills-content ${activeSection === "soft" ? "active" : ""}`}>
-                    <ul>
-                        <li>Problem-solving</li>
-                        <li>Attention to Detail</li>
-                        <li>Patience</li>
-                        <li>Teamwork</li>
-                        <li>Good Communicaton</li>
-                        <li>Adaptability</li>
-                        <li>Time Management</li>
-                        <li>Continuous Learning</li>
-                        <li>Creativity</li>
-                    </ul>
+                    <div className="skills-grid" id="soft-skills">
+                        <div className="skill-item">
+                            <img src={problemIcon} alt="Problem-solving Icon" />
+                            <p>Problem-solving</p>
+                        </div>
+                        <div className="skill-item">
+                            <img src={attentionIcon} alt="Attention to Detail Icon" />
+                            <p>Attention to Detail</p>
+                        </div>
+                        <div className="skill-item">
+                            <img src={patienceIcon} alt="Patience Icon" />
+                            <p>Patience</p>
+                        </div>
+                        <div className="skill-item">
+                            <img src={teamworkIcon} alt="Teamwork Icon" />
+                            <p>Teamwork</p>
+                        </div>
+                        <div className="skill-item">
+                            <img src={communicationIcon} alt="Good Communication Icon" />
+                            <p>Good Communication</p>
+                        </div>
+                        <div className="skill-item">
+                            <img src={adaptabilityIcon} alt="Adaptability Icon" />
+                            <p>Adaptability</p>
+                        </div>
+                        <div className="skill-item">
+                            <img src={timeIcon} alt="Time Management Icon" />
+                            <p>Time Management</p>
+                        </div>
+                        <div className="skill-item">
+                            <img src={learning1Icon} alt="Continuous Learning Icon" id="learn" />
+                            <p>Continuous Learning</p>
+                        </div>
+                        <div className="skill-item">
+                            <img src={creativityIcon} alt="Creativity Icon" />
+                            <p>Creativity</p>
+                        </div>
+                    </div>
                 </div>
 
+                {/* Languages Grid */}
                 <div className={`skills-content ${activeSection === "languages" ? "active" : ""}`}>
-                    <ul>
-                        <li>Romanian (Native)</li>
-                        <li>English (Fluent)</li>
-                        <li>German (Beginner)</li>
-                    </ul>
+                    <div className="skills-grid" id="languages">
+                        <div className="skill-item">
+                            <img src={romanianIcon} alt="Romanian Icon" />
+                            <p>Romanian (Native)</p>
+                        </div>
+                        <div className="skill-item">
+                            <img src={englishIcon} alt="English Icon" />
+                            <p>English (Fluent)</p>
+                        </div>
+                        <div className="skill-item">
+                            <img src={germanIcon} alt="German Icon" />
+                            <p>German (Beginner)</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

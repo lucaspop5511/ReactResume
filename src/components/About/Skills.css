@@ -9,6 +9,8 @@
     background-color: #333;
 }
 
+/* NAV */
+
 .skills-nav {
     display: flex;
     gap: 10px;
@@ -59,12 +61,53 @@
 
 .skills-content {
     display: none;
-    font-family: 'Pixelify';
+    /* Other styles */
 }
 
 .skills-content.active {
     display: block;
 }
+
+
+/* GRID */
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 950px;
+    height: auto;
+    margin-left: -50px;
+}
+
+.skill-item {
+    text-align: center;
+}
+
+#tech-skills .skill-item img {
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+}
+
+#soft-skills .skill-item img {
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+}
+
+#languages .skill-item img {
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.skill-item p {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-family: 'Pixelify';
+}
+
 
 @media screen and (max-width: 930px) {
     .skills-nav-item {
