@@ -3,6 +3,9 @@
 }
 
 .skills-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
     background-color: #333;
 }
 
@@ -10,7 +13,7 @@
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-family: 'Silkscreen';
     margin-top: 50px;
 }
@@ -18,6 +21,8 @@
 .skills-nav-item {
     display: flex;
     align-items: center;
+    justify-content: center;
+    height: 70px;
     padding: 10px 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -59,4 +64,15 @@
 
 .skills-content.active {
     display: block;
+}
+
+@media screen and (max-width: 930px) {
+    .skills-nav-item {
+        width: 25vw;
+        padding-left: 33px;
+    }
+
+    .skills-nav-item p {
+        display: none;
+    }
 }

@@ -69,7 +69,7 @@
     z-index: -2;
 }
 
-@media screen and (max-width: 1111px) {
+@media screen and (max-width: 930px) {
     .about-me-content {
         flex-direction: column;
     }

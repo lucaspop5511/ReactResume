@@ -11,7 +11,7 @@ function Skills() {
     return (
         <div className="skills">
             <h3>Skills</h3>
-            <div class="skills-container">
+            <div className="skills-container">
                 {/* Mini-navbar */}
                 <div className="skills-nav">
                     <button
@@ -19,21 +19,21 @@ function Skills() {
                         onClick={() => setActiveSection("technical")}
                     >
                         <img src={technical} alt="Technical Icon" className="icon" />
-                        Technical
+                        <p>Technical</p>
                     </button>
                     <button
                         className={`skills-nav-item ${activeSection === "soft" ? "active" : ""}`}
                         onClick={() => setActiveSection("soft")}
                     >
                         <img src={soft} alt="Technical Icon" className="icon" />
-                        Soft
+                        <p>Softskills</p>
                     </button>
                     <button
                         className={`skills-nav-item ${activeSection === "communication" ? "active" : ""}`}
                         onClick={() => setActiveSection("languages")}
                     >
                         <img src={languages} alt="Technical Icon" className="icon" />
-                        Languages
+                        <p>Languages</p>
                     </button>
                 </div>
 
@@ -55,9 +55,14 @@ function Skills() {
                 <div className={`skills-content ${activeSection === "soft" ? "active" : ""}`}>
                     <ul>
                         <li>Problem-solving</li>
-                        <li>Critical Thinking</li>
+                        <li>Attention to Detail</li>
+                        <li>Patience</li>
                         <li>Teamwork</li>
+                        <li>Good Communicaton</li>
                         <li>Adaptability</li>
+                        <li>Time Management</li>
+                        <li>Continuous Learning</li>
+                        <li>Creativity</li>
                     </ul>
                 </div>
 
