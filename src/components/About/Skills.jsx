@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Skills.css";
+import "/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/components/Pixel/PixelBorderSkills.css";
 
 import technical from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/technical.png';
 import soft from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/soft.png';
@@ -20,7 +21,6 @@ import attentionIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-
 import patienceIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/patience.png';
 import teamworkIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/teamwork.png';
 import communicationIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/communication.png';
-import adaptabilityIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/adaptability.png';
 import timeIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/time.png';
 import learning1Icon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/learn.png';
 import creativityIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/creativity.png';
@@ -35,35 +35,38 @@ function Skills() {
     return (
         <div className="skills">
             <h3>Skills</h3>
-            <div className="skills-container">
+            <div className="skills-container pixel-skills--wrapper">
                 {/* Mini-navbar */}
                 <div className="skills-nav">
                     <button
+                        id="tech-button"
                         className={`skills-nav-item ${activeSection === "technical" ? "active" : ""}`}
                         onClick={() => setActiveSection("technical")}
                     >
-                        <img src={technical} alt="Technical Icon" className="icon" />
+                        <img src={technical} alt="Technical Skills Icon" className="icon" />
                         <p>Technical</p>
                     </button>
                     <button
+                        id="soft-button"
                         className={`skills-nav-item ${activeSection === "soft" ? "active" : ""}`}
                         onClick={() => setActiveSection("soft")}
                     >
-                        <img src={soft} alt="Technical Icon" className="icon" />
+                        <img src={soft} alt="Softskills Icon" className="icon" />
                         <p>Softskills</p>
                     </button>
                     <button
-                        className={`skills-nav-item ${activeSection === "communication" ? "active" : ""}`}
+                        id="lang-button"
+                        className={`skills-nav-item ${activeSection === "languages" ? "active" : ""}`}
                         onClick={() => setActiveSection("languages")}
                     >
-                        <img src={languages} alt="Technical Icon" className="icon" />
+                        <img src={languages} alt="Languages Icon" className="icon" />
                         <p>Languages</p>
                     </button>
                 </div>
 
-                {/* Technical Skills Grid */}
+                {/* Technical Skills List */}
                 <div className={`skills-content ${activeSection === "technical" ? "active" : ""}`}>
-                    <div className="skills-grid" id="tech-skills">
+                    <div className="skills-list" id="tech-skills">
                         <div className="skill-item">
                             <img src={htmlIcon} alt="HTML Icon" />
                             <p>HTML</p>
@@ -103,9 +106,9 @@ function Skills() {
                     </div>
                 </div>
 
-                {/* Soft Skills Grid */}
+                {/* Soft Skills List */}
                 <div className={`skills-content ${activeSection === "soft" ? "active" : ""}`}>
-                    <div className="skills-grid" id="soft-skills">
+                    <div className="skills-list" id="soft-skills">
                         <div className="skill-item">
                             <img src={problemIcon} alt="Problem-solving Icon" />
                             <p>Problem-solving</p>
@@ -127,10 +130,6 @@ function Skills() {
                             <p>Good Communication</p>
                         </div>
                         <div className="skill-item">
-                            <img src={adaptabilityIcon} alt="Adaptability Icon" />
-                            <p>Adaptability</p>
-                        </div>
-                        <div className="skill-item">
                             <img src={timeIcon} alt="Time Management Icon" />
                             <p>Time Management</p>
                         </div>
@@ -145,9 +144,9 @@ function Skills() {
                     </div>
                 </div>
 
-                {/* Languages Grid */}
+                {/* Languages List */}
                 <div className={`skills-content ${activeSection === "languages" ? "active" : ""}`}>
-                    <div className="skills-grid" id="languages">
+                    <div className="skills-list" id="language">
                         <div className="skill-item">
                             <img src={romanianIcon} alt="Romanian Icon" />
                             <p>Romanian (Native)</p>
@@ -162,6 +161,7 @@ function Skills() {
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     );
