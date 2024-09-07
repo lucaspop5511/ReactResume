@@ -3,7 +3,7 @@ import "./Contact.css"; // For styling
 
 function Contact() {
     return (
-        <section className="contact-section pixel-corner">
+        <section className="contact-section">
             <h2>Contact</h2>
             <p>If you'd like to get in touch, feel free to Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit modi cum nam laudantium ab voluptatem, labore fugiat ratione corporis sit molestias nostrum! Nostrum, velit vel facere, natus iure delectus veritatis, ut repellendus vitae assumenda illo totam ducimus iusto sed repudiandae quibusdam distinctio exercitationem! Impedit tempora nam maxime aut deleniti hic..</p>
             <ul>
