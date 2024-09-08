@@ -1,11 +1,11 @@
 import React from 'react';
 import './HeroSection.css';
 
-import sky from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/Background/sky.png';
-import mountain from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/Background/mountains.png';
-import clouds from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/Background/clouds.png';
+import sky from 'react-resume/public/assets/Background/sky.png';
+import mountain from 'react-resume/public/assets/Background/mountains.png';
+import clouds from 'react-resume/public/assets/Background/clouds.png';
 
-import arrows from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/elements/scrollArrow.png';
+import arrows from 'react-resume/public/assets/elements/scrollArrow.png';
 
 function HeroSection() {
     return (

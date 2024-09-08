@@ -1,10 +1,10 @@
 import React from "react";
 import "./Contact.css";
 
-import linkedin from "/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/contact/linkedin.png";
-import github from "/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/contact/github.png";
-import gmail from "/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/contact/gmail.png";
-import whatsapp from "/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/contact/whatsapp.png";
+import linkedin from "react-resume/public/assets/PixelLogos/contact/linkedin.png";
+import github from "react-resume/public/assets/PixelLogos/contact/github.png";
+import gmail from "react-resume/public/assets/PixelLogos/contact/gmail.png";
+import whatsapp from "react-resume/public/assets/PixelLogos/contact/whatsapp.png";
 
 
 function Contact() {

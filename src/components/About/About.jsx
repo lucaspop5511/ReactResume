@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 import Skills from "./Skills";
 
-import profilePic from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/aboutMePicture.png';
+import profilePic from 'react-resume/public/assets/aboutMePicture.png';
 
 function About() {
     return (

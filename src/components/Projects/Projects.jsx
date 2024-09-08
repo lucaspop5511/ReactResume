@@ -1,9 +1,9 @@
 import React from "react";
 import "./Projects.css";
 
-import forest1 from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/Background/forestBackground/1.png';
-import forest2 from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/Background/forestBackground/2.png';
-import forest3 from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/Background/forestBackground/3.png';
+import forest1 from 'react-resume/public/assets/Background/forestBackground/1.png';
+import forest2 from 'react-resume/public/assets/Background/forestBackground/2.png';
+import forest3 from 'react-resume/public/assets/Background/forestBackground/3.png';
 
 function Projects() {
     const projects = [
