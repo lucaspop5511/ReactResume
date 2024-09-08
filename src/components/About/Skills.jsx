@@ -1,33 +1,33 @@
 import React, { useState } from "react";
 import "./Skills.css";
-import "react-resume/public/components/Pixel/PixelBorderSkills.css";
+import "/components/Pixel/PixelBorderSkills.css";
 
-import technical from 'react-resume/public/assets/PixelLogos/technical.png';
-import soft from 'react-resume/public/assets/PixelLogos/soft.png';
-import languages from 'react-resume/public/assets/PixelLogos/languages.png';
+import technical from '/assets/PixelLogos/technical.png';
+import soft from '/assets/PixelLogos/soft.png';
+import languages from '/assets/PixelLogos/languages.png';
 
-import htmlIcon from 'react-resume/public/assets/PixelLogos/html.png';
-import cssIcon from 'react-resume/public/assets/PixelLogos/css.png';
-import jsIcon from 'react-resume/public/assets/PixelLogos/js.png';
-import reactIcon from 'react-resume/public/assets/PixelLogos/react.png';
-import p5Icon from 'react-resume/public/assets/PixelLogos/p5.png';
-import gitIcon from 'react-resume/public/assets/PixelLogos/git.png';
-import cIcon from 'react-resume/public/assets/PixelLogos/c.png';
-import cppIcon from 'react-resume/public/assets/PixelLogos/cpp.png';
-import csharpIcon from 'react-resume/public/assets/PixelLogos/csharp.png';
+import htmlIcon from '/assets/PixelLogos/html.png';
+import cssIcon from '/assets/PixelLogos/css.png';
+import jsIcon from '/assets/PixelLogos/js.png';
+import reactIcon from '/assets/PixelLogos/react.png';
+import p5Icon from '/assets/PixelLogos/p5.png';
+import gitIcon from '/assets/PixelLogos/git.png';
+import cIcon from '/assets/PixelLogos/c.png';
+import cppIcon from '/assets/PixelLogos/cpp.png';
+import csharpIcon from '/assets/PixelLogos/csharp.png';
 
-import problemIcon from 'react-resume/public/assets/PixelLogos/problem.png';
-import attentionIcon from 'react-resume/public/assets/PixelLogos/attention.png';
-import patienceIcon from 'react-resume/public/assets/PixelLogos/patience.png';
-import teamworkIcon from 'react-resume/public/assets/PixelLogos/teamwork.png';
-import communicationIcon from 'react-resume/public/assets/PixelLogos/communication.png';
-import timeIcon from 'react-resume/public/assets/PixelLogos/time.png';
-import learning1Icon from 'react-resume/public/assets/PixelLogos/learn.png';
-import creativityIcon from 'react-resume/public/assets/PixelLogos/creativity.png';
+import problemIcon from '/assets/PixelLogos/problem.png';
+import attentionIcon from '/assets/PixelLogos/attention.png';
+import patienceIcon from '/assets/PixelLogos/patience.png';
+import teamworkIcon from '/assets/PixelLogos/teamwork.png';
+import communicationIcon from '/assets/PixelLogos/communication.png';
+import timeIcon from '/assets/PixelLogos/time.png';
+import learning1Icon from '/assets/PixelLogos/learn.png';
+import creativityIcon from '/assets/PixelLogos/creativity.png';
 
-import romanianIcon from 'react-resume/public/assets/PixelLogos/romanian.png';
-import englishIcon from 'react-resume/public/assets/PixelLogos/english.png';
-import germanIcon from 'react-resume/public/assets/PixelLogos/german.png';
+import romanianIcon from '/assets/PixelLogos/romanian.png';
+import englishIcon from '/assets/PixelLogos/english.png';
+import germanIcon from '/assets/PixelLogos/german.png';
 
 function Skills() {
     const [activeSection, setActiveSection] = useState("technical");

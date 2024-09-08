@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 import Skills from "./Skills";
 
-import profilePic from 'react-resume/public/assets/aboutMePicture.png';
+import profilePic from '/assets/aboutMePicture.png';
 
 function About() {
     return (
