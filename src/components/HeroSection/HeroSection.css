@@ -1,5 +1,4 @@
 header {
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,7 +57,15 @@ header {
     margin-left: 15px;
     margin-top: -45px;
     text-shadow: 1px 1px 0px #000000, -1px 1px 3px #0b474f, 4px -4px 3px #0b474f, -2px -2px 0px #000000;
+}
 
+.scroll-arrow {
+    position: fixed;
+    width: 100px;
+    height: auto;
+    bottom: -120px;
+    pointer-events: none;
+    transform: translateZ(-5px) scale(1.5);
 }
 
 @media screen and (max-width: 741px) {

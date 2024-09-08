@@ -8,34 +8,29 @@ import forest3 from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume
 function Projects() {
     const projects = [
         {
-            title: "Project 1",
-            description: "A brief description of Project 1.",
-            link: "#",
+            title: "Honey Tunes",
+            description: "Ear training test",
+            link: "https://honey-tunes.vercel.app/",
         },
         {
-            title: "Project 2",
-            description: "A brief description of Project 2.",
-            link: "#",
+            title: "Personal Website",
+            description: "The first web app I built",
+            link: "https://lucaspop51.vercel.app/",
         },
         {
-            title: "Project 3",
-            description: "A brief description of Project 3.",
-            link: "#",
+            title: "Responsive Digital Clock",
+            description: "Simple digital clock with a sleek design",
+            link: "https://responsive-digital-clock.vercel.app/",
         },
         {
-            title: "Project 4",
-            description: "A brief description of Project 4.",
-            link: "#",
+            title: "Resume Generator",
+            description: "A one-page webapp that generates a random styled resume at the click of a button",
+            link: "https://random-resume-generator.vercel.app/",
         },
         {
-            title: "Project 5",
-            description: "A brief description of Project 5.",
-            link: "#",
-        },
-        {
-            title: "Project 6",
-            description: "A brief description of Project 6.",
-            link: "#",
+            title: "Task Manager",
+            description: "Create, Edit and Delete tasks",
+            link: "https://task-manager-ggvdmld9e-lucas-projects-4aae6ebb.vercel.app/",
         },
     ];
 
@@ -47,13 +42,14 @@ function Projects() {
             <div className="projects-grid-wrapper">
                 <h2>Projects</h2>
                 <div className="projects-grid">
-                    {projects.map((project, index) => (
+                    {projects.map((project, index) =>
+                    (
                         <div className="pixel-corners--wrapper">
                             <div key={index} className="project-card">
                                 <h3>{project.title}</h3>
                                 <p>{project.description}</p>
                                 <a href={project.link} target="_blank" rel="noopener noreferrer">
-                                    View Project
+                                    <i>View Project</i>
                                 </a>
                             </div>
                         </div>

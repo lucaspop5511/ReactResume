@@ -1,37 +1,53 @@
 .contact-section {
-    background-image: linear-gradient(rgb(34, 33, 53) 40%, rgb(20, 67, 99));
+    background-image: linear-gradient(rgb(34, 33, 53) 40%, rgb(34, 33, 53));
     color: #c5b8b8;
     position: relative;
     height: 60vh;
-    padding: 50px;
-    margin-top: -40px;
+    padding-top: 0;
+    margin-top: -100px;
 }
 
-h2 {
-    font-size: 2.5rem;
+.contact-section h2 {
+    color: #dce1dd;
+    font-size: 5rem;
+    font-family: 'Silkscreen';
     margin-bottom: 20px;
+    padding: 50px;
+    padding-bottom: 0;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+.contact-section p {
+    font-family: 'Pixelify';
+    font-size: 1.7rem;
+    margin-left: 50px;
 }
 
-li {
-    font-size: 1.2rem;
-    margin: 10px 0;
+.contact-section footer {
+    background-color: #114264;
+    width: 100%;
+    padding: 20px 0 10px 0;
+    margin-top: 75px;
 }
 
-a {
-    color: #007acc;
-    text-decoration: none;
-    font-weight: bold;
+.contact-section footer a img {
+    width: 50px;
+    height: auto;
+    margin-left: 30px;
+    transition: all .2s ease;
+}
+
+.contact-section footer a img:hover {
+    transform: scale(1.1);
 }
 
 @media screen and (max-width: 934px) {
     .contact-section {
         height: 85%;
         transform: translateY(20px);
+    }
+
+    .contact-section h2 {
+        font-size: 4rem;
     }
 }
 
