@@ -1,33 +1,33 @@
 import React, { useState } from "react";
 import "./Skills.css";
-import "/components/Pixel/PixelBorderSkills.css";
+import "/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/components/Pixel/PixelBorderSkills.css";
 
-import technical from '/assets/PixelLogos/technical.png';
-import soft from '/assets/PixelLogos/soft.png';
-import languages from '/assets/PixelLogos/languages.png';
+import technical from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/technical.png';
+import soft from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/soft.png';
+import languages from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/languages.png';
 
-import htmlIcon from '/assets/PixelLogos/html.png';
-import cssIcon from '/assets/PixelLogos/css.png';
-import jsIcon from '/assets/PixelLogos/js.png';
-import reactIcon from '/assets/PixelLogos/react.png';
-import p5Icon from '/assets/PixelLogos/p5.png';
-import gitIcon from '/assets/PixelLogos/git.png';
-import cIcon from '/assets/PixelLogos/c.png';
-import cppIcon from '/assets/PixelLogos/cpp.png';
-import csharpIcon from '/assets/PixelLogos/csharp.png';
+import htmlIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/html.png';
+import cssIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/css.png';
+import jsIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/js.png';
+import reactIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/react.png';
+import p5Icon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/p5.png';
+import gitIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/git.png';
+import cIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/c.png';
+import cppIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/cpp.png';
+import csharpIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/csharp.png';
 
-import problemIcon from '/assets/PixelLogos/problem.png';
-import attentionIcon from '/assets/PixelLogos/attention.png';
-import patienceIcon from '/assets/PixelLogos/patience.png';
-import teamworkIcon from '/assets/PixelLogos/teamwork.png';
-import communicationIcon from '/assets/PixelLogos/communication.png';
-import timeIcon from '/assets/PixelLogos/time.png';
-import learning1Icon from '/assets/PixelLogos/learn.png';
-import creativityIcon from '/assets/PixelLogos/creativity.png';
+import problemIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/problem.png';
+import attentionIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/attention.png';
+import patienceIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/patience.png';
+import teamworkIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/teamwork.png';
+import communicationIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/communication.png';
+import timeIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/time.png';
+import learning1Icon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/learn.png';
+import creativityIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/creativity.png';
 
-import romanianIcon from '/assets/PixelLogos/romanian.png';
-import englishIcon from '/assets/PixelLogos/english.png';
-import germanIcon from '/assets/PixelLogos/german.png';
+import romanianIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/romanian.png';
+import englishIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/english.png';
+import germanIcon from '/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/assets/PixelLogos/german.png';
 
 function Skills() {
     const [activeSection, setActiveSection] = useState("technical");

@@ -5,8 +5,8 @@ import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 
 import "./index.css";
-import "./components/Pixel/PixelBorders.css";
-import "./components/Pixel/PixelCorners.css"
+import "/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/components/Pixel/PixelBorders.css";
+import "/Users/lucaspop51/Documents/vscode/ReactResume/react-resume/src/components/Pixel/PixelCorners.css"
 
 function App() {
   return (
